@@ -1,33 +1,28 @@
 /* Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
 body {
-    font-family: 'Arial', sans-serif;
-    width: 320px;
-    padding: 20px;
-    background-color: #f5f5f5;
-    color: #333;
-    border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+    padding: 0px;
+    margin: 0px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .wrapper {
+    width: 320px;
+    padding: 16px 16px;
+    background-color: #41545c;
+    color: #f3eeee;
     overflow-y: auto;
   }
-  
-  #rankersList {
-    margin-top: 20px;
+  .wrapper_img {
+    width: -webkit-fill-available;
   }
-  
-  /* Ranker Item Styles */
-  .ranker-item {
-    display: flex;
-    align-items: center;
-    padding: 12px;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.05);
-    transition: background-color 0.3s;
+  .wrapper_img img {
+    width: -webkit-fill-available;
   }
-  
-  .ranker-item:hover {
-    background-color: #f9f9f9;
+  .wrapper_info h4 {
+    font-size: 20px;
   }
-  
-  
+  .wrapper_info p {
+    font-size: 14px;
+  }
