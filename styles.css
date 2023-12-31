@@ -35,8 +35,8 @@ body {
   .footer .footer__link{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 8px;
+    padding-bottom: 16px;
+    padding-top: 8px;
   }
   .footer__link li{
     width: -webkit-fill-available;
@@ -44,5 +44,5 @@ body {
     margin: 0px;
   }
   .footer__link img{
-    width: 48px;
+    width: 40px;
   }
